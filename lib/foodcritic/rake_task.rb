@@ -30,7 +30,7 @@ module FoodCritic
             puts result
           end
 
-          fail result.to_s if result.failed?
+          exit result.to_s if result.failed?
         end
       end
 
